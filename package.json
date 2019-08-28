@@ -1,0 +1,23 @@
+{
+  "name": "svg_sprite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-root-import": "^6.4.1",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin-svgo": "^7.0.0",
+    "next": "^9.0.5",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.5.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "svg-sprite-html-webpack": "^2.3.0",
+    "svg-sprite-loader": "^4.1.6"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
